@@ -67,13 +67,26 @@ h1, h2, h3, h4, h5 {
 /* Nav */
 * {
 	max-width:100%;
-	margin:0;
   }
-  
+  body {
+	  margin: 3%;
+	  text-align: center;
+	  font-family: 'Gochi Hand', cursive;
+  }
+  nav {
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  background-color: lime;
+  }
   nav a {
 	margin: 0 45px;
 	text-decoration:none;
 	color:grey;
+	display:inline-block;
+  }
+  nav a:hover {
+	transform: skewY(20deg);
   }
   .logo {
 	position: relative;
@@ -81,7 +94,7 @@ h1, h2, h3, h4, h5 {
   }
   .header-img {
 	display:inline-block;
-	margin-left: 15%;
+	margin-left: 5%;
 	margin-top: 5%;
   }
   
@@ -91,6 +104,7 @@ h1, h2, h3, h4, h5 {
 	  margin: 0 180px;
 	font-size: 60px;
 	text-align: center;
+	vertical-align: 100px;
   }
   .start {
 	border: 1px solid black;
@@ -120,6 +134,7 @@ h1, h2, h3, h4, h5 {
 	  display:inline-block;
 	width: 30%;
 	margin: 0 10px;
+	padding: 10px;
   }
   .middle-img {
 	display:block;
@@ -136,7 +151,7 @@ h1, h2, h3, h4, h5 {
   }
   footer {
 	width:80%;
-	margin: 0 40%;
+	margin: 0 auto;
   }
   .body {
 	display:inline-block;
@@ -145,10 +160,5 @@ h1, h2, h3, h4, h5 {
   .lower-middle {
 	 top: 0px;
 	 margin:0px;  
-	 padding: 0px 2px 2px 3px;    
-	 border-width: 1px;
-	 border-bottom-width:1px;
-	 border-bottom-color:black;
-	 border-bottom-style: solid;
-	 width: 100%;
+	 padding: 30px;    
   }
