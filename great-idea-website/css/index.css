@@ -65,31 +65,89 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 /* Nav */
-nav {
-	
-}
-
-
-.logo {
-
-}
-
-/* Header */
-.top-section1 {
-	
-}
-.button {
-	
-}
-.header-img {
-	
-}
-
-/* Main */
-
-.middle-top {
-	
-}
-.middle-bottom {
-	
-}
+* {
+	max-width:100%;
+  }
+  
+  nav a {
+	margin: 0 45px;
+	text-decoration:none;
+	color:grey;
+  }
+  .logo {
+	position: relative;
+	vertical-align:middle;
+  }
+  .header-img {
+	display:inline-block;
+	margin-left: 15%;
+	margin-top: 5%;
+  }
+  
+  /* Header */
+  .top-section1 {
+	display:inline-block;
+	  margin: 0 180px;
+	font-size: 60px;
+	text-align: center;
+  }
+  .start {
+	border: 1px solid black;
+	display:inline-block;
+	padding: 2px 30px;
+	font-size: 15px;
+  }
+  .container {
+	 top: 0px;
+	 margin:0px;  
+	 padding: 0px 2px 5% 3%;    
+	 border-width: 1px;
+	 border-bottom-width:1px;
+	 border-bottom-color:black;
+	 border-bottom-style: solid;
+	 width: 100%;
+  }
+  
+  /* Main */
+  
+  .middle-top {
+	  display:inline-block;
+	width: 45%;
+	margin: 5% 0 20px;
+  }
+  .middle-bottom {
+	  display:inline-block;
+	width: 30%;
+	margin: 0 10px;
+  }
+  .middle-img {
+	display:block;
+	margin:0 auto;
+	padding: 3%;
+  }
+  #contact {
+	width: 12%;
+	line-height: 30px;
+  }
+  address{
+	width:100%;
+	line-height:20px;
+  }
+  footer {
+	width:80%;
+	margin: 0 40%;
+  }
+  .body {
+	display:inline-block;
+	width:100%;
+  }
+  .lower-middle {
+	 top: 0px;
+	 margin:0px;  
+	 padding: 0px 2px 2px 3px;    
+	 border-width: 1px;
+	 border-bottom-width:1px;
+	 border-bottom-color:black;
+	 border-bottom-style: solid;
+	 width: 100%;
+  }
